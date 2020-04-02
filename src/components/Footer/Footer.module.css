@@ -1,0 +1,9 @@
+.footer {
+  letter-spacing: 3px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100px;
+  padding-bottom: 50px;
+}

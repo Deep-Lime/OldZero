@@ -1,0 +1,37 @@
+.ava {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-transform: none;
+}
+
+.ava img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-bottom: 8px;
+}
+
+.content {
+    background-color: #252525;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.content:hover {
+    background-color: #E91E63;
+    opacity: 0.9;
+    transition-duration: .2s;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #E91E63;
+}

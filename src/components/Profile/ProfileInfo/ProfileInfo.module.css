@@ -1,0 +1,37 @@
+.head {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+
+.head__main {
+    letter-spacing: 2px;
+    padding-top: 7px;
+}
+
+.head > img {
+    width: 230px;
+    height: 230px;
+    border: 2px solid #ccc;
+    border-radius: 100%;
+    margin-left: 70px;
+}
+
+.head__text {
+    padding-top: 20px;
+    font-weight: normal;
+}
+
+.head__statistic {
+    text-align-last: left;
+    padding-left: 60px;
+    margin-left: 20px;
+}
+
+.head__statistic span {
+    color: #E91E63;
+    letter-spacing: 2px;
+    padding-left: 5px;
+    font-weight: 700;
+}
